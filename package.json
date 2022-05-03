@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "format": "rome format --write ."
+    "format": "rome format --write . --indent-style space --indent-size 2 --quote-style single",
+    "format-check": "rome format . --indent-style space --indent-size 2 --quote-style single"
   },
   "dependencies": {
     "react": "^18.0.0",
